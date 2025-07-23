@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" href="style.css" defer> </script>
+    <header>
+        <h1>Main Topic</h1>
+    </header>
+    <nav> <!--menu system-->
+        <ul>
+            <li><button id="page1btn">Types of grapes</button></li>
+            <li><button id="page2btn">Uses of grapes</button></li>
+            <li><button id="page3btn">Grapes minigame</button></li>
+        </ul>
+    </nav>
+    <main id="pagecontainer">
+        <section class="page" id="page1">
+            <p>
+                <img src="images/greengrapes.jpg" alt="Green Grapes" width="200" height="150">
+                Green grapes
+            </p>
+            <p>
+                Green grapes, also known as white grapes, get their color from the absence of anthocyanins,
+                pigments that produce red and purple hues. These grapes are generally smaller and tarter than red
+                grapes.
+            </p>
+            <p>
+                <img src="images/redgrapes.jpg" alt="Red Grapes" width="200" height="150">
+                Red grapes
+            </p>
+            <p>
+                Red grapes are a type of grape that get their color from anthocyanins, pigments found in the skin.
+                They are typically round or oblong, with a range of colors from light red to deep purple-red.
+            </p>
+            <p>
+                <img src="images/blackgrapes.jpg" alt="Black Grapes" width="200" height="150">
+                Black grapes
+            </p>
+            <p>
+                Black grapes are small to medium-sized fruits with a deep purple-black color, known for their sweet
+                flavor and high antioxidant content.
+            </p>
+            <h1 id="seed">
+                Seedless grapes VS Seeded grapes
+            </h1>
 
-<header>
-    <h1>Main Topic</h1>
-</header>
+            <section class="comparison">
+                <p>
+                    <img src="images/seedless.jpg" alt="Seedless Grapes" width="200" height="150">
+                    Seedless Grapes
+                </p>
+                <p id="versus"> VS </p>
+                <p>
+                    <img src="images/seeded.jpg" alt="Seeded Grapes" width="200" height="150">
+                    Seeded Grapes
+                </p>
+            </section>
+            <!-- <button id="leftBtn">Left</button>
+            <button id="rightBtn">Right</button>
+            <button id="upBtn">Up</button>
+            <button id="downBtn">Down</button>
+            <button id="resetBtn">Reset</button>
+            <div id="ball">Ball</div> -->
+        </section>
+        <section class="page" id="page2">
+            page 2 content
+        </section>
+        <section class="page" id="page3">
+            Grape Clicking Game
+            <h1>Grape Clicker</h1>
+            <p>Click grape to catch it</p>
+            <button id="stopBtn">Stop!</button>
+            <h2 id="scoreBox"></h2>
+            <img id="grapeId" src="images/greenone.png" alt="grape image">
+        </section>
+    </main>
+</body>
 
 </html>
